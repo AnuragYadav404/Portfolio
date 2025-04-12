@@ -13,7 +13,7 @@ export default  function Skill() {
                 return (
                     <div key={skill.title}>
                         <p>{skill.title}</p>
-                        <img src={skill.iconUrl} alt={skill.title} />
+                        <img src={skill.iconUrl} alt={skill.title} className="h-12 w-12 mx-auto mb-2"/>
                     </div>
                 )
             })}
