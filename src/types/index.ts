@@ -33,3 +33,12 @@ export interface Publication {
     url: URL,
     description: string,
 }
+
+export interface Introduction {
+    name: string,
+    description: string,
+    github: URL,
+    linkedin: URL,
+    photo: string,
+    location: string,
+}
