@@ -41,4 +41,5 @@ export interface Introduction {
     linkedin: URL,
     photo: string,
     location: string,
+    email: string,
 }

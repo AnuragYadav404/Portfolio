@@ -7,5 +7,6 @@ export const introduction: Introduction = {
     linkedin: new URL("https://www.linkedin.com/in/anurag-yadav-519212332/"),
     description:"Currently pursuing a master's degree in Web and Data Science at University of Koblenz",
     location: "Germany",
-    photo: "/assets/profile_pic.png"
+    photo: "/assets/profile_pic.png",
+    email: "yadav.anurag862@gmail.com",
 }
