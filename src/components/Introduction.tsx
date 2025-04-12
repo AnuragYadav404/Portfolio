@@ -11,7 +11,8 @@ import { introduction } from "../data/introduction"
 
 export default function Introduction() {
     return (
-        <div>
+        <div id="introduction">
+            <hr />
             <p>{introduction.name}</p>
             <p>{introduction.description}</p>
             <p>{introduction.location}</p>
