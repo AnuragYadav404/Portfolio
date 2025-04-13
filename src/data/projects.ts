@@ -20,14 +20,14 @@ export const projects: Project[] = [
         description: "Interactive memory card game in React with real-time Pokémon data integration from PokeAPI. Focused on responsive, user-friendly design to ensure an engaging and enjoyable experience.",
         codeUrl: new URL("https://github.com/AnuragYadav404/memory-card-game"), 
         liveUrl: new URL("https://memory-card-game-gray.vercel.app/"),
-        skills: ["React.js", "Game Development"," API Integration", "Dynamic Rendering", "State Management", "Responsive UI"," Interactive Design"]
+        skills: ["React.js", "Game Development"," API Integration", "Dynamic Rendering", "State Management", "Responsive UI"]
     },
     {
         title: "CV/Resume builder", 
         description: "A CV Resume Builder web app using React with features to input and manage personal and professional details. Enabled one-click PDF downloads and browser local storage for persistent client side user data.",
         codeUrl: new URL("https://github.com/AnuragYadav404/cv-application"), 
         liveUrl: new URL("https://cv-application-7aou-2mmupanuy-anuragyadav404.vercel.app/"),
-        skills: ["React"]
+        skills: ["React.js", "PDF Export", "Form Validation", "localStorage API"," Modular Architecture", "Single Page Application (SPA)"]
     }
 ]
 
