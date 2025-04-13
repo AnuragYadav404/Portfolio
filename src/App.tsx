@@ -10,13 +10,19 @@ function App() {
 
   return (
     <div id="appContainer" className="bg-zinc-900 text-white">
-      <NavigationBar />
-      <Introduction />
-      <Skill />
-      <PreviousWork />
-      <Publication />
-      <Project />
-      <Certification />
+      <div className="flex flex-col justify-center bg-white dark:bg-zinc-900 px-8 text-gray-900 dark:text-gray-100 antialiased">
+          <NavigationBar />
+        <main className="flex flex-col justify-center bg-white dark:bg-zinc-900 px-8 text-gray-900 dark:text-gray-100 antialiased">
+          <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+          <Introduction />
+          <Skill />
+          <PreviousWork />
+          <Publication />
+          <Project />
+          <Certification />
+          </div>
+        </main>
+      </div>
     </div>
   )
 }

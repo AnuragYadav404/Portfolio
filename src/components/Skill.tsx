@@ -8,7 +8,7 @@ import { skills } from "../data/skills"
 
 export default  function Skill() {
     return (
-        <div id="skills">
+        <div id="skills" className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {skills.map((skill) => {
                 return (
                     <div key={skill.title}>
