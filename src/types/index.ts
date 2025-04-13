@@ -21,11 +21,6 @@ export interface Project {
     codeUrl: URL,
 }
 
-export interface Skill {
-    title: string,
-    iconUrl: string,
-}
-
 export interface Publication {
     title: string,
     publicationBook: string,

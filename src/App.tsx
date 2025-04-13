@@ -4,7 +4,7 @@ import NavigationBar from "./components/NavigationBar"
 import PreviousWork from "./components/PreviousWork"
 import Project from "./components/Project"
 import Publication from "./components/Publication"
-import Skill from "./components/Skill"
+
 
 function App() {
 
@@ -15,7 +15,6 @@ function App() {
         <main className="flex flex-col justify-center bg-white dark:bg-zinc-900 px-8 text-gray-900 dark:text-gray-100 antialiased">
           <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
           <Introduction />
-          <Skill />
           <PreviousWork />
           <Publication />
           <Project />
