@@ -11,18 +11,22 @@ import { projects } from "../data/projects"
 
 export default function Project() {
     return (
-        <div id="projects">
-            <hr />
+        <div id="projects" className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {projects.map((project) => {
                 return (
-                    <div key={project.title}>
-                        <br />
-                        <p>{project.title}</p>
-                        <a href={project.liveUrl.toString()} target="_blank">Live</a>
-                        <a href={project.codeUrl.toString()} target="_blank">Github</a>
-                        <p>{project.description}</p>
-                        <br />
-                    </div>
+                    <a href={project.liveUrl.toString()} target="_blank" className="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200 border-slate-700 w-full">
+                        <div key={project.title} className="relative h-full">
+                            <div ></div>
+                            <div className="flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
+                                <br />
+                                <h4 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100">{project.title}</h4>
+                                <a href={project.codeUrl.toString()} target="_blank">Github</a>
+                                <p className="leading-6 pt-4 text-gray-700 dark:text-gray-300">{project.description}</p>
+                                
+                                <br />
+                            </div>
+                        </div>
+                    </a>
                 )
             })}
         </div>

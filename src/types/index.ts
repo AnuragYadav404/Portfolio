@@ -19,6 +19,7 @@ export interface Project {
     description: string,
     liveUrl: URL,
     codeUrl: URL,
+    skills: string[],
 }
 
 export interface Publication {
