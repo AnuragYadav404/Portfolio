@@ -9,7 +9,7 @@ import { certifications } from "../data/certifications"
 
 export default function Certification() {
     return (
-        <div id="certification">
+        <div id="certifications">
             <hr />
             {certifications.map((cert) => {
                 return (

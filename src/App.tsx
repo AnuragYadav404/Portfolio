@@ -9,7 +9,7 @@ import Skill from "./components/Skill"
 function App() {
 
   return (
-    <>
+    <div id="appContainer" className="bg-zinc-900 text-white">
       <NavigationBar />
       <Introduction />
       <Skill />
@@ -17,7 +17,7 @@ function App() {
       <Publication />
       <Project />
       <Certification />
-    </>
+    </div>
   )
 }
 
