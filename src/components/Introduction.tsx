@@ -23,6 +23,9 @@ export default function Introduction() {
                     <a href={introduction.linkedin.toString()} target="_blank" className="h-12 w-12 m-2">
                         <img src="/assets/linkedin.svg" alt="linkedin" title="view linkedin" />
                     </a>
+                    <a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+ introduction.email} rel="noopener noreferrer" target="_blank" className="h-12 w-12 m-2">
+                        <img src="/assets/gmail.svg" alt="email" title="view email" />
+                    </a>
                 </div>
             </div>
             <div id="profile photo" className="relative flex-shrink-1 p-2 md:p-2 md:order-last order-first">
