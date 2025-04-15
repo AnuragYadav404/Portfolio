@@ -14,8 +14,8 @@ export default function Introduction() {
         <div id="introduction" className="flex flex-col md:flex-row justify-between items-start md:space-x-14 w-full mb-10 scroll-mt-28">
             <hr />
             <div id="description" className="flex md:w-3/4 flex-col mt-6">
-                <h2 className="font-bold text-3xl md:text-5xl tracking-tight mb-2 text-black dark:text-white">{introduction.name}</h2>
-                <p className="text-zinc-200">{introduction.description}</p>
+                <h2 className="font-bold text-3xl md:text-5xl tracking-tight mb-2 text-black ">{introduction.name}</h2>
+                <p className="text-zinc-800">{introduction.description}</p>
                 <div id="profile links" className="flex justify-left">
                     <a href={introduction.github.toString()} target="_blank" className="h-12 w-12 m-2">
                         <img src="/assets/github.svg" alt="github" title="view github" />

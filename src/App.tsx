@@ -9,10 +9,10 @@ import CodeProject from "./components/CodeProjects"
 function App() {
 
   return (
-    <div id="appContainer" className="bg-zinc-900 text-white">
-      <div className="flex flex-col justify-center bg-white dark:bg-zinc-900 px-8 text-gray-900 dark:text-gray-100 antialiased">
+    <div id="appContainer">
+      <div className="flex flex-col justify-center px-8 text-gray-900 antialiased">
           <NavigationBar />
-        <main className="flex flex-col justify-center bg-white dark:bg-zinc-900 px-8 text-gray-900 dark:text-gray-100 antialiased">
+        <main className="flex flex-col justify-center bg-white px-8 text-gray-900 antialiased">
           <div className="flex flex-col justify-center items-start max-w-4xl mx-auto mb-16">
           <Introduction />
           <PreviousWork />
