@@ -32,3 +32,11 @@ export interface Introduction {
     location: string,
     email: string,
 }
+
+
+export interface Code {
+    title: string,
+    description: string,
+    codeUrl: URL,
+    skills: string[],
+}
