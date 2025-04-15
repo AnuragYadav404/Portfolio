@@ -1,10 +1,3 @@
-export interface Certification {
-    title: string;
-    provider: string;
-    issued: string;
-    url: URL;
-}
-
 export interface PreviousWork {
     role: string;
     company: string;

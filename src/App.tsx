@@ -1,4 +1,3 @@
-import Certification from "./components/Certification"
 import Introduction from "./components/Introduction"
 import NavigationBar from "./components/NavigationBar"
 import PreviousWork from "./components/PreviousWork"
@@ -18,7 +17,6 @@ function App() {
           <PreviousWork />
           <Publication />
           <Project />
-          <Certification />
           </div>
         </main>
       </div>

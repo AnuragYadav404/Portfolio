@@ -13,7 +13,7 @@ export default function NavigationBar() {
                     <a href="#projects">Projects</a>
                 </div>
                 <div className="relative rounded-lg px-3 inline-block py-2 text-sm text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900">
-                    <a href="#certifications">Certifications</a>
+                    <a href="#codes">Code</a>
                 </div>
                 <div className="relative rounded-lg px-3 inline-block py-2 text-sm text-gray-700 dark:text-gray-200 transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900">
                     <a href="#contact">Contact</a>
